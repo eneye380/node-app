@@ -110,6 +110,11 @@ handlers.ping = function(data, callback){
     callback(200);
 };
 
+// Hello handler
+handlers.hello = function(data, callback){
+    callback(200, {'message':'Welcome to Node Master Class'});
+}
+
 // Not found handler
 handlers.notfound = function (data, callback) {
     callback(404);
@@ -117,5 +122,6 @@ handlers.notfound = function (data, callback) {
 
 // Define a request router
 var router = {
-    'ping': handlers.ping
+    'ping': handlers.ping,
+    'hello': handlers.hello
 }
