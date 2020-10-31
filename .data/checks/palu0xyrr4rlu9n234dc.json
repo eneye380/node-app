@@ -1,1 +1,1 @@
-{"id":"palu0xyrr4rlu9n234dc","userPhone":"5551234561","protocol":"https","url":"google.com","method":"get","successCodes":[200,201,301,302],"timeoutSeconds":3,"state":"down","lastChecked":1603989674382}
+{"id":"palu0xyrr4rlu9n234dc","userPhone":"5551234561","protocol":"https","url":"google.com","method":"get","successCodes":[200,201,301,302],"timeoutSeconds":3,"state":"up","lastChecked":1604160018705}
